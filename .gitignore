@@ -1,0 +1,16 @@
+# Environment files
+.env
+.env.*
+
+# macOS system files
+.DS_Store
+._*
+
+# Python bytecode cache
+__pycache__/
+
+# Vim swap files
+*.swp
+
+# NFO files
+*.nfo
