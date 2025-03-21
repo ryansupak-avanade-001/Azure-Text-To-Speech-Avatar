@@ -273,7 +273,7 @@ function connectToAvatarService(peerConnection) {
 // Function to send a greeting message
 function sendGreetingMessage() {
 	
-	var greetingText = `Welcome to Microsoft's Agora House. How can I help you?`;
+	var greetingText = `Hi! I'm a Custom Audio Video Avatar. The Azure Text to Speech Service handles my Audio Input and Output. The Azure OpenAI Service handles my responses. Optionally: Azure Search Services can be used to provide me with subject-specific Training Data.`;
 	
 	var ssml = `<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xmlns:mstts='http://www.w3.org/2001/mstts' xml:lang='en-US'><voice name='en-US-NovaTurboMultilingualNeural'><mstts:leadingsilence-exact value='0'/>${greetingText}</voice></speak>`;
 
