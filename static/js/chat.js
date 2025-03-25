@@ -528,7 +528,8 @@ function handleGlobalMouseDown(event) {
         '#showTypeMessage',    // Show Type Message checkbox
         '#chatHistory',        // Chat history textarea
         '#chat-box',           // Chat box container (if toggleable)
-        '#userMessageBox'      // User message input box (if visible)
+        '#userMessageBox',     // User message input box (if visible)
+	'#showChatHistory'     // Button to toggle Chat Window from Screen
     ];
 
     // Check if the click target or any of its parents match an excluded selector
